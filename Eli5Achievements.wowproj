@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Deploy" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>Eli5Achievements</Name>
+    <ProjectGuid>8f0fe7b4-6413-4c86-9e23-7021b104988e</ProjectGuid>
+    <AssemblyName>Eli5Achievements</AssemblyName>
+    <RootNamespace>Eli5Achievements</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="Eli5Achievements.toc">
+      <SubType>TableOfContents</SubType>
+    </Content>
+    <Content Include="Locale\deDE.lua">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="Locale\enUS.lua">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="Locale\esES.lua">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="Locale\esMX.lua">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="Locale\frFR.lua">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="Locale\itIT.lua">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="Locale\koKR.lua">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="Locale\ptBR.lua">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="Locale\ruRU.lua">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="Locale\zhCN.lua">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="Locale\zhTW.lua">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="Locale\_locales.xml">
+      <SubType>Frame</SubType>
+    </Content>
+    <Content Include="main.lua">
+      <SubType>Code</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Locale" />
+  </ItemGroup>
+  <Import Project="$(DevEnvDir)\Extensions\Tools\MSBuild\AddonStudio\Wow\3.0\WowAddonStudio.targets" />
+  <!--
+  To modify your build process, add your task inside one of the targets below and uncomment it.
+  <Target Name="BeforeClean"></Target>
+  <Target Name="AfterClean"></Target>
+  <Target Name="BeforeRebuild"></Target>
+  <Target Name="AfterRebuild"></Target>
+  <Target Name="BeforeDeploy"></Target>
+  <Target Name="AfterDeploy"></Target>
+  -->
+</Project>

@@ -1,0 +1,9 @@
+## Title: ELI5 Achievements
+## Version: @project-version@
+## Author: Limi
+## Interface: 70300
+## Notes: Adds simple summary text to Achievements.
+## X-Category: Achievements
+
+main.lua
+Locale\_locales.xml
